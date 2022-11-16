@@ -27,7 +27,7 @@ if (line_nbr > 1):
         parser.print_help()
         sys.exit(1)
 
-'''
+
 with open(inputfile,mode='r') as f:
     lines = f.readlines()
     if (row_nbr):
@@ -36,5 +36,3 @@ with open(inputfile,mode='r') as f:
             parser.print_help()
             sys.exit(10)
 
-
-'''
